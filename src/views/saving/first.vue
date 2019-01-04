@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="firstContent">
    
   </div>
 </template>
@@ -12,6 +12,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.firstContent{
+  min-width: 100%;
+   min-height: calc(100vh - 84px);
+}
 
 </style>
