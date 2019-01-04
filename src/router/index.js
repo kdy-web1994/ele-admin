@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-
+import Layout from '@/views/layout/Layout'
 Vue.use(VueRouter)
 
 export const constantRouterMap = [
@@ -13,7 +12,7 @@ export const constantRouterMap = [
   {
     path: '/main',
     name: 'Main',
-    component: () => import('@/views/main'),
+    component: Layout,
     
     children:[
       {
