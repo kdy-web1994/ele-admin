@@ -5,6 +5,7 @@ export default {
     }
   },
   mounted() {
+    
     this.fixBugIniOS()
   },
   methods: {
